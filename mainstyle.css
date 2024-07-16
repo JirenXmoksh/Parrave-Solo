@@ -1,0 +1,161 @@
+@font-face {
+    font-family: MarkPro;
+    src: url('Assets/MarkPro.ttf');
+}
+body{
+    overflow-x: hidden;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    font-family: MarkPro;
+    margin: -10px;
+    padding: 10px;
+    height: 160px;
+    background-color: black;    
+}
+.iconn{
+    position: relative;
+    top: 10px;
+    left: 5px;
+    margin-left: -5px;
+}
+.navitem{
+    border-right: 1px solid white;
+}
+.navitem:hover{
+    border-right: 1px solid dimgray;
+    transition: 0.4s;
+}
+
+.Headtxt{
+    font-size: 75px;
+    font-weight: bold;
+    color: #f50;
+    position: relative;
+    top: -10px;
+    float: center;
+}
+nav{
+    float: center;
+    margin: 0px;
+    position: relative;
+    top: -40px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+nav li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+nav li a:hover{
+    font-weight: bold;
+    color: dimgray;
+    transition: 0.4s;
+}
+.login{
+    position: relative;
+    float: right;
+
+}
+main{
+    border: 2px solid white; 
+    border-radius: 10px;
+    
+}
+.brandlogos{
+    width: 50%;
+    float: left;
+    align-items: center;
+    padding-top: 10px;  
+    padding-left: 10px;  
+    display: flex;
+}
+.brandlogos > img{
+    width: 13%;
+    height: 100px;
+    padding-left: 40px;
+}
+.brandcities{
+    width: 50%;
+    align-items: center;
+    padding-top: 10px;  
+    display: flex;
+}
+.brandcities > img{
+    width: 13%;
+    height: 100px;
+    padding-left: 40px;
+}
+.hero{
+    height: 500px;
+    color: white;
+    background-color: white;
+}
+.herosub{
+    background-image: url('Assets/vendinghero.png');
+    box-shadow: inset 200px 200px 400px 400px rgba(255, 148, 77, 0.3);
+    border: 1px solid white;
+    border-radius: 10px;
+    background-size: cover;
+    height: 500px;
+    width: 50%;
+}
+.herosub2{
+    background-image: url('Assets/vendingsubhero.png');
+    box-shadow: inset 200px 200px 400px 400px rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    border-radius: 10px;
+    background-size: cover;
+    color: white;
+    width: 50%;
+    padding: 20px;
+}
+.section2{
+    color: white;
+    background-image: url('Assets/header.png');
+    border: 2px solid white; 
+    box-shadow: inset 200px 200px 400px 400px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    height: 600px;
+    background-attachment: fixed;
+    padding: 10px;
+}
+
+.booknow{
+    position: relative;
+    left: 700px;
+    font-weight: bold;
+    font-family: MarkPro;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.4s;
+}
+.booknow:hover{
+    color: black;
+    background-color: white;
+}
+.brandlogos2{
+    width: 100%;
+}
+.brandlogos2 > img{
+    width: 24%;
+}
+.section3{
+    margin: 0px;
+    height: 820px;
+    background-image: url('Assets/vendingNpay.jpg');
+}
